@@ -1,6 +1,38 @@
+# Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Byte-compiled
 __pycache__/
-*.pyc
-data/
+*.py[cod]
+*$py.class
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Models & Data (Avoid pushing huge files)
 models/
+data/
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.pt
+
+# Outputs & Logs
 outputs/
-Vietnamese_QA.ipynb
+*.log
+combined_output.txt
+
+# IDEs & OS Settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project specific
+*local_config.yaml

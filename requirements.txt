@@ -1,6 +1,16 @@
-transformers
-datasets
-evaluate
-accelerate
-gradio
-torch
+# Deep Learning & NLP
+torch>=2.0.0
+transformers>=4.38.0
+datasets>=2.18.0
+evaluate>=0.4.0
+accelerate>=0.27.0
+numpy>=1.24.0
+
+# API & Web App
+fastapi>=0.110.0
+uvicorn>=0.27.0
+pydantic>=2.6.0
+gradio>=4.20.0
+
+# Utilities
+pyyaml>=6.0
